@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Notification</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="content-position">
+    <ion-button (click)="schedule()" class="content-position__button">
+      Schedule
+    </ion-button>
+    <ion-button (click)="presentToast()" class="content-position__button">
+      Toast
+    </ion-button>
+  </div>
+</ion-content>
